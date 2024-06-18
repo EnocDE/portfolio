@@ -16,8 +16,7 @@ export default {
         caveat: ['Caveat', 'cursive']
       },
       backgroundImage: {
-        'shape': "url('./src/assets/zigzag.png')",
-        'abstract-purple': "url('bg-last-section.jpg')",
+        'shape': "url('../public/zigzag.png')",
       },
       boxShadow: {
         'animated': "10px 10px 0 #242424",

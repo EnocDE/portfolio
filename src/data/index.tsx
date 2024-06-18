@@ -82,7 +82,7 @@ export const PROJECTS = [
   {
     name: 'Uptask',
     technologies: ["MongoDb", "Express", "React.js", "Node.js", "TypeScript", "Tailwind CSS"],
-    image: "uptask.png",
+    image: "uptask",
     description: 'Uptask es un <span class="highlight-text">planificador de proyectos</span> que nos permitirá llevar un control de los usuarios en nuestro equipo de trabajo, las tareas asignadas y sus estados, además, también nos permite llevar un registro de comentarios y actualizaciones de los estados hechos por los miembros del equipo en cada tarea del proyecto.',
     page: '',
     repository: ''
@@ -90,7 +90,7 @@ export const PROJECTS = [
   {
     name: 'Quiosco',
     technologies: ["Next.js", "React.js", "Prisma", "TailwindCSS"],
-    image: "quiosco.png",
+    image: "quiosco",
     description: 'Este sistema es un <span class="highlight-text">quisco de comida</span> que muestra un menú donde el cliente podrá elegir y realizar su pedido de forma interactiva, incluye un sistema para administrar los productos visibles en el menú, cambiar el estado de las ordenes desde la cocina y una pantalla para mostrar los ultimos 5 pedidos listos para recoger.',
     page: '',
     repository: ''
@@ -98,7 +98,7 @@ export const PROJECTS = [
   {
     name: "Calories Tracker",
     technologies: ["TypeScript", "React.js", "Tailwind CSS"],
-    image: "tracker.png",
+    image: "tracker",
     description: 'Esta app nos permite llevar el <span class="highlight-text">conteo de las calorias</span> consumidas y gastadas durante el dia.',
     page: '',
     repository: ''
@@ -106,7 +106,7 @@ export const PROJECTS = [
   {
     name: 'Real State',
     technologies: ["HTML", "CSS", "SASS"],
-    image: "realstate.png",
+    image: "realstate",
     description: 'Sitio web para <span class="highlight-text">promocionar la venta</span> de casas e información de la empresa.',
     page: '',
     repository: ''
@@ -114,7 +114,7 @@ export const PROJECTS = [
   {
     name: 'Muebleria',
     technologies: ["HTML", "CSS"],
-    image: "muebles.png",
+    image: "muebles",
     description: 'Sitio web para mostrar el <span class="highlight-text">catalogo de productos</span> e información</span> de la empresa.',
     page: '',
     repository: ''
@@ -122,7 +122,7 @@ export const PROJECTS = [
   {
     name: 'Nucleus',
     technologies: ["HTML", "CSS"],
-    image: "nucleus.png",
+    image: "nucleus",
     description: '<span class="highlight-text">Landing page</span> para la app de nucleus.',
     page: '',
     repository: ''
@@ -130,7 +130,7 @@ export const PROJECTS = [
   // {
   //   name: 'Cafetería',
   //   technologies: ["HTML", "CSS", "SASS"],
-  //   image: "cafeteria.png",
+  //   image: "cafeteria",
   //   page: '',
   //   repository: ''
   // },

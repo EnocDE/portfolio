@@ -20,7 +20,10 @@ export default function Project({
   return (
     <div className="space-y-3 rounded-2xl flex flex-col">
       <div className="relative group rounded-2xl overflow-hidden hover:scale-[1.03] transition-transform ease-in-out w-full">
-        <img className="group-hover:blur-sm" src={image} alt="Proyecto" />
+        <picture>
+          <source srcSet={image + `.webp`} type="image/webp" />
+          <img className="group-hover:blur-sm" loading="lazy" src={image + `.png`} alt="Proyecto" />
+        </picture>
         <div className="absolute inset-0 grid place-items-center place-content-center p-5 bg-transparent-black opacity-0 group-hover:opacity-100 transition-all group">
           <p
             className="text-sm sm:text-lg text-white font-light text-justify select-none w-full translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 duration-500 transition-all "

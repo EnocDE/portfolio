@@ -51,7 +51,7 @@ export default function MenuSocialMedia() {
         >
           ×
         </button>
-        <h3 className="font-bold text-2xl block md:hidden">Mis Redes</h3>
+        <h3 className="font-bold text-2xl hidden md:block">Mis Redes</h3>
         {SOCIAL_MEDIA.map((social) => (
           <li
             className="hover:cursor-pointer hover:scale-125 transition-all relative group flex flex-col"

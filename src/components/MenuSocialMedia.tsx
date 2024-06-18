@@ -4,10 +4,8 @@ import { SOCIAL_MEDIA } from "../data/index";
 import useMenu from "../hooks/useMenu";
 
 const trackWindowResize =
-  (setShowMenu: React.Dispatch<React.SetStateAction<boolean>>) => () => {
-    if (window.innerWidth > 768) {
-      setShowMenu(true);
-    } else {
+  (setShowMenu: React.Dispatch<React.SetStateAction<boolean>>, showMenu: boolean) => () => {
+    if (window.innerWidth > 768 && showMenu) {
       setShowMenu(false);
     }
   };
@@ -32,9 +30,9 @@ export default function MenuSocialMedia() {
     } else {
       allowScroll();
     }
-    window.addEventListener("resize", trackWindowResize(setShowMenu));
+    window.addEventListener("resize", trackWindowResize(setShowMenu, showMenu));
     return () =>
-      window.removeEventListener("resize", trackWindowResize(setShowMenu));
+      window.removeEventListener("resize", trackWindowResize(setShowMenu, showMenu));
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showMenu]);
 

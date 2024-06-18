@@ -1,11 +1,12 @@
 import { PROJECTS } from "../data";
 import Project from "./Project";
+import TitleSection from "./TitleSection";
 
 export default function ProjectsSection() {
   return (
-    <section className="min-h-screen">
-      <h2 className="text-6xl font-bold text-center pt-10 pb-20">Proyectos</h2>
-      <div className="grid lg:grid-cols-2 gap-10 my-10">
+    <section className="min-h-screen mt-2">
+      <TitleSection>Proyectos</TitleSection>
+      <div className="grid lg:grid-cols-2 gap-16 md:mt-16 mb-10">
         {PROJECTS.map((project) => {
           const { name, image, description, page, technologies, repository } =
             project;

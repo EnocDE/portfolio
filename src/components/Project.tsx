@@ -1,3 +1,5 @@
+import ProjectButton from "./ProjectButton";
+
 interface Props {
   name: string;
   technologies: string[];
@@ -31,25 +33,18 @@ export default function Project({
 
       <ul className="flex gap-3 flex-wrap">
         {technologies.map((tech) => (
-          <li key={tech} className="text-lg font-semibold text-gray-400 dark:text-neutral-400">
+          <li
+            key={tech}
+            className="text-lg font-semibold text-neutral-500 dark:text-neutral-300"
+          >
             {tech}
           </li>
         ))}
       </ul>
 
       <div className="flex gap-10 justify-center flex-1 items-end">
-        <a
-          className="shadow-animated px-3 py-2 border-2 border-[#242424] hover:translate-x-[5px] hover:translate-y-[5px] hover:shadow-animated-reverse transition-all rounded-lg dark:shadow-neutral-200 dark:border-neutral-200 font-semibold"
-          href={page}
-        >
-          Ver Proyecto
-        </a>
-        <a
-          className="shadow-animated px-3 py-2 border-2 border-[#242424] hover:translate-x-[5px] hover:translate-y-[5px] hover:shadow-animated-reverse transition-all rounded-lg dark:shadow-neutral-200 dark:border-neutral-200 font-semibold"
-          href={repository}
-        >
-          Ver Repositorio
-        </a>
+        <ProjectButton url={page}>Ver Proyecto</ProjectButton>
+        <ProjectButton url={repository}>Ver Repositorio</ProjectButton>
       </div>
     </div>
   );

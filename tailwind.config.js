@@ -12,7 +12,8 @@ export default {
         center: true
       },
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif']
+        montserrat: ['Montserrat', 'sans-serif'],
+        caveat: ['Caveat', 'cursive']
       },
       backgroundImage: {
         'shape': "url('./src/assets/zigzag.png')",

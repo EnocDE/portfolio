@@ -1,8 +1,10 @@
-import Header from "./components/Header";
-import MenuSocialMedia from "./components/MenuSocialMedia";
-import Navbar from "./components/Navbar";
-import ProjectsSection from "./components/ProjectsSection";
-import TechnologiesSection from "./components/TechnologiesSection";
+import React from "react";
+
+const Header = React.lazy( () => import("./components/Header"))
+const MenuSocialMedia = React.lazy( () => import("./components/MenuSocialMedia"))
+const Navbar = React.lazy( () => import("./components/Navbar"))
+const ProjectsSection = React.lazy( () => import("./components/ProjectsSection"))
+const TechnologiesSection = React.lazy( () => import("./components/TechnologiesSection"))
 
 function App() {
   return (
@@ -17,8 +19,8 @@ function App() {
       </main>
 
       <footer className="relative container-mx bg-teal-300 w-full">
-            <Navbar />
-          </footer>
+        <Navbar />
+      </footer>
       <MenuSocialMedia />
     </>
   );

@@ -6,7 +6,7 @@ export default function ListSocialMedia() {
   const {changeShowMenu} = useMenu()
   return (
     <div>
-      <button onClick={changeShowMenu} className="block md:hidden bg-transparent">
+      <button onClick={changeShowMenu} aria-label="menu" className="block md:hidden bg-transparent">
         <CgMenu size={25} />
       </button>
       <ul

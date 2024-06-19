@@ -83,49 +83,49 @@ export const PROJECTS = [
     name: 'Uptask',
     technologies: ["MongoDb", "Express", "React.js", "Node.js", "TypeScript", "Tailwind CSS"],
     image: "uptask",
-    description: 'Uptask es un <span class="highlight-text">planificador de proyectos</span> que nos permitirá llevar un control de los usuarios en nuestro equipo de trabajo, las tareas asignadas y sus estados, además, también nos permite llevar un registro de comentarios y actualizaciones de los estados hechos por los miembros del equipo en cada tarea del proyecto.',
-    page: '',
-    repository: ''
+    description: 'Uptask es una aplicación de <span class="highlight-text">gestión de proyectos</span> que facilita el seguimiento de usuarios dentro de nuestro equipo de trabajo, así como de las tareas asignadas y sus respectivos estados. Además, permite el registro de comentarios y actualizaciones sobre el progreso de cada tarea realizadas por los miembros del equipo en el proyecto.',
+    page: 'https://uptask-frontend-one.vercel.app/auth/login',
+    repository: 'https://github.com/EnocDE/uptask_frontend'
   },
   {
     name: 'Quiosco',
     technologies: ["Next.js", "React.js", "Prisma", "TailwindCSS"],
     image: "quiosco",
-    description: 'Este sistema es un <span class="highlight-text">quisco de comida</span> que muestra un menú donde el cliente podrá elegir y realizar su pedido de forma interactiva, incluye un sistema para administrar los productos visibles en el menú, cambiar el estado de las ordenes desde la cocina y una pantalla para mostrar los ultimos 5 pedidos listos para recoger.',
-    page: '',
-    repository: ''
+    description: 'Este sistema es un<span class="highlight-text"> quiosco de comida</span> que presenta un menú interactivo para que los clientes elijan y realicen sus pedidos. Incluye funcionalidades para administrar los productos mostrados en el menú, actualizar el estado de las órdenes desde la cocina, y una pantalla que muestra los últimos 5 pedidos listos para ser recogidos.',
+    page: 'https://quisco-next-app.vercel.app/order/cafe',
+    repository: 'https://github.com/EnocDE/quisco-next'
   },
   {
     name: "Calories Tracker",
     technologies: ["TypeScript", "React.js", "Tailwind CSS"],
     image: "tracker",
-    description: 'Esta app nos permite llevar el <span class="highlight-text">conteo de las calorias</span> consumidas y gastadas durante el dia.',
-    page: '',
-    repository: ''
+    description: 'Esta aplicación proporciona la funcionalidad necesaria para llevar un detallado <span class="highlight-text">registro de las calorías</span> consumidas y las calorías gastadas a lo largo del día, permitiendo a los usuarios mantener un seguimiento preciso de su ingesta calórica y del gasto energético diario.',
+    page: 'https://enocde-calorie-tracker.netlify.app/',
+    repository: 'https://github.com/EnocDE/Calorie-Tracker'
   },
   {
     name: 'Real State',
     technologies: ["HTML", "CSS", "SASS"],
     image: "realstate",
-    description: 'Sitio web para <span class="highlight-text">promocionar la venta</span> de casas e información de la empresa.',
-    page: '',
-    repository: ''
+    description: 'Un sitio web destinado a la <span class="highlight-text">promoción de la venta de casas</span>, con información sobre la empresa y las propiedades en venta, que incluye un blog con entradas de interés.',
+    page: 'https://enocde-real-state.netlify.app/',
+    repository: 'https://github.com/EnocDE/real-state'
   },
   {
     name: 'Muebleria',
     technologies: ["HTML", "CSS"],
     image: "muebles",
-    description: 'Sitio web para mostrar el <span class="highlight-text">catalogo de productos</span> e información</span> de la empresa.',
-    page: '',
-    repository: ''
+    description: 'Un sitio web dedicado a presentar de manera integral el <span class="highlight-text">catálogo de productos</span> ofrecidos por la empresa, acompañado de información detallada sus nuestros servicios y valores corporativos.',
+    page: 'https://enocde-muebleria.netlify.app/',
+    repository: 'https://github.com/EnocDE/Ecommerce-muebleria'
   },
   {
     name: 'Nucleus',
     technologies: ["HTML", "CSS"],
     image: "nucleus",
-    description: '<span class="highlight-text">Landing page</span> para la app de nucleus.',
-    page: '',
-    repository: ''
+    description: '<span class="highlight-text">Landing page</span> diseñada exclusivamente para la aplicación Nucleus, ofreciendo una experiencia informativa completa y atractiva.',
+    page: 'https://enocde-nucleus.netlify.app/',
+    repository: 'https://github.com/EnocDE/nucleus-ewallet'
   },
   // {
   //   name: 'Cafetería',

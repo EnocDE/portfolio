@@ -91,7 +91,7 @@ export const PROJECTS = [
     name: 'Quiosco',
     technologies: ["Next.js", "React.js", "Prisma", "TailwindCSS"],
     image: "quiosco",
-    description: 'Este sistema es un<span class="highlight-text"> quiosco de comida</span> que presenta un menú interactivo para que los clientes elijan y realicen sus pedidos. Incluye funcionalidades para administrar los productos mostrados en el menú, actualizar el estado de las órdenes desde la cocina, y una pantalla que muestra los últimos 5 pedidos listos para ser recogidos.',
+    description: 'Este sistema es un <span class="highlight-text">quiosco de comida</span> que presenta un menú interactivo para que los clientes elijan y realicen sus pedidos. Incluye funcionalidades para administrar los productos mostrados en el menú, actualizar el estado de las órdenes desde la cocina, y una pantalla que muestra los últimos 5 pedidos listos para ser recogidos.',
     page: 'https://quisco-next-app.vercel.app/order/cafe',
     repository: 'https://github.com/EnocDE/quisco-next'
   },

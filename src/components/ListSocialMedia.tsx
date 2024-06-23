@@ -8,13 +8,15 @@ export default function ListSocialMedia() {
     <ul
       className={`bg-white dark:bg-[#242424] md:dark:bg-transparent md:bg-transparent w-fit h-auto flex md:gap-5 delay-150 duration-300 ease-out`}
     >
-      <button
-        onClick={changeShowMenu}
-        aria-label="menu"
-        className="block md:hidden bg-transparent"
-      >
-        <CgMenu size={25} />
-      </button>
+      <li>
+        <button
+          onClick={changeShowMenu}
+          aria-label="menu"
+          className="block md:hidden bg-transparent"
+        >
+          <CgMenu size={25} />
+        </button>
+      </li>
       {SOCIAL_MEDIA.map((social) => (
         <li
           className="hover:cursor-pointer hover:scale-125 transition-all relative group flex flex-col"

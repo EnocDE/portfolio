@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   return (
     <section className="min-h-screen mt-2">
       <TitleSection>Proyectos</TitleSection>
-      <div className="grid lg:grid-cols-2 gap-16 md:mt-16 mb-10">
+      <section className="grid lg:grid-cols-2 gap-16 md:mt-16 mb-10">
         {PROJECTS.map((project) => {
           const { name, image, description, page, technologies, repository } =
             project;
@@ -22,7 +22,7 @@ export default function ProjectsSection() {
             />
           );
         })}
-      </div>
+      </section>
     </section>
   );
 }

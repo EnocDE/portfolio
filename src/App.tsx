@@ -1,4 +1,5 @@
 import React from "react";
+import ProgressBar from "./components/ProgressBar";
 
 const Header = React.lazy( () => import("./components/Header"))
 const MenuSocialMedia = React.lazy( () => import("./components/MenuSocialMedia"))
@@ -11,8 +12,8 @@ function App() {
       <Header />
       <Main />
       <Footer />
-      
       <MenuSocialMedia />
+      <ProgressBar />
     </>
   );
 }

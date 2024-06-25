@@ -18,7 +18,7 @@ export default function Project({
   repository,
 }: Props) {
   return (
-    <article className="space-y-3 rounded-2xl flex flex-col">
+    <article className="space-y-3 rounded-2xl flex flex-col animate-content">
       <div className="relative group rounded-2xl overflow-hidden hover:scale-[1.03] transition-transform ease-in-out w-full">
         <picture>
           <source srcSet={image + `.webp`} type="image/webp" />

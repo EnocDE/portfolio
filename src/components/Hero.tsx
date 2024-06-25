@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="min-h-dvh md:h-dvh">
+    <section className="min-h-screen md:h-screen">
       <article className="grid md:grid-cols-2 h-full items-center gap-5 relative">
         <picture className="mt-20 md:mt-0 place-self-center self-end md:items-end md:place-content-end rounded-full md:rounded-none aspect-square md:w-full  md:h-full md:col-start-2 flex items-center overflow-hidden bg-slate-100 md:bg-transparent">
           <source srcSet="picture.webp" type="image/webp" />
@@ -24,8 +24,6 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="dark:brightness-[3.5] hidden md:block bg-shape w-full h-full bg-no-repeat opacity-5 absolute -z-10 bg-right-top"></div>
-        <div className="dark:brightness-[3.5] hidden md:block bg-shape w-full h-full bg-no-repeat opacity-5 absolute -z-10 bg-left-bottom -ml-60 mt-60"></div>
       </article>
     </section>
   );

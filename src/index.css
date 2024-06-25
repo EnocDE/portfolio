@@ -65,7 +65,7 @@ img {
   top: 0;
   width: 0%;
   height: 5px;
-  background-color: #09f;
+  background-color: #8273e3;
   animation: progress-grow auto linear;
   animation-timeline: scroll(root block);
 }
@@ -76,5 +76,24 @@ img {
   }
   100% {
     width: 100%;
+  }
+}
+
+.animate-content {
+  animation: reveal linear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    translate: 0 50px;
+    scale: .8;
+  }
+  100% {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
   }
 }

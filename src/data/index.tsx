@@ -119,14 +119,14 @@ export const PROJECTS = [
     page: 'https://enocde-muebleria.netlify.app/',
     repository: 'https://github.com/EnocDE/Ecommerce-muebleria'
   },
-  {
-    name: 'Nucleus',
-    technologies: ["HTML", "CSS"],
-    image: "nucleus",
-    description: '<span class="highlight-text">Landing page</span> diseñada exclusivamente para la aplicación Nucleus, ofreciendo una experiencia informativa completa y atractiva.',
-    page: 'https://enocde-nucleus.netlify.app/',
-    repository: 'https://github.com/EnocDE/nucleus-ewallet'
-  },
+  // {
+  //   name: 'Nucleus',
+  //   technologies: ["HTML", "CSS"],
+  //   image: "nucleus",
+  //   description: '<span class="highlight-text">Landing page</span> diseñada exclusivamente para la aplicación Nucleus, ofreciendo una experiencia informativa completa y atractiva.',
+  //   page: 'https://enocde-nucleus.netlify.app/',
+  //   repository: 'https://github.com/EnocDE/nucleus-ewallet'
+  // },
   // {
   //   name: 'Cafetería',
   //   technologies: ["HTML", "CSS", "SASS"],

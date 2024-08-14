@@ -96,6 +96,14 @@ export const PROJECTS = [
     repository: 'https://github.com/EnocDE/quisco-next'
   },
   {
+    name: "SaaS Landing Page",
+    technologies: ["TypeScript", "React.js", "Next.JS", "Tailwind CSS", "Framer Motion"],
+    image: "saas",
+    description: 'Landing page desarrollada para <span class="highlight-text">promocionar un SaaS</span>.',
+    page: 'https://landing-page-saas-parallax.vercel.app/',
+    repository: 'https://github.com/EnocDE/landing-page-parallax'
+  },
+  {
     name: "Calories Tracker",
     technologies: ["TypeScript", "React.js", "Tailwind CSS"],
     image: "tracker",
